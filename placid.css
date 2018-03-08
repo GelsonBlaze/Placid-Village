@@ -22,7 +22,7 @@ p {
 a {
 	background-color: #FFFFFF;
   display: block;
-  margin: 30px auto 5px auto;
+  margin: 40px auto 5px auto;
   width: fit-content;
   color: #E6C7A0;
   padding: 10px 20px;
@@ -32,11 +32,11 @@ a {
 }
 
 img {
-	padding-top: 90px;
+	padding-top: 130px;
 	max-width: 272px;
 	width: 80%;
 	height: auto;
-	padding-bottom: 10px;
+	padding-bottom: 15px;
 }
 
 .top {
