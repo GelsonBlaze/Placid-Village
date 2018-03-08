@@ -7,24 +7,25 @@ html, body, .top {
 	height: 100%;
   font-size: small;
   text-align: center;
-  font-weight:lighter;
+  font-weight: lighter;
 }
 
 p, a {
-	font-family: "DINNRegular";
+	font-family: "dinn-regular";
 }
 
 p {
-	color: #FFFFFF;
-	padding: 15px 26vw 5px 26vw;
+	color: #ffffff;
+	padding: 15px 26vw 5px;
 }
 
 a {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
   display: block;
-  margin: 30px auto 5px auto;
+  margin-left: auto;
+  margin-right: auto;
   width: fit-content;
-  color: #E6C7A0;
+  color: #e6c7a0;
   padding: 10px 20px;
   cursor: pointer;
   text-decoration: none;
@@ -40,7 +41,7 @@ img {
 }
 
 .top {
-	background-color: #E6C7A0;
+	background-color: #e6c7a0;
 	background-image: url("assets/images/bot-background.svg");
 	background-position: bottom;
 	background-repeat: no-repeat;
@@ -48,15 +49,15 @@ img {
 }
 
 .text {
-	padding: 20px auto 20px auto;
+	padding-bottom: 20px;
 }
 
 @font-face {
-	font-family: "DINNRegular";
+  font-family: "dinn-regular";
 	src: url('assets/fonts/din-next-regular/DINNextLTPro-Regular.eot'); /* IE9 Compat Modes */
   src: url('assets/fonts/din-next-regular/DINNextLTPro-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
        url('assets/fonts/din-next-regular/DINNextLTPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
        url('assets/fonts/din-next-regular/DINNextLTPro-Regular.woff') format('woff'), /* Pretty Modern Browsers */
-       url('assets/fonts/din-next-regular/DINNextLTPro-Regular.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('assets/fonts/din-next-regular/DINNextLTPro-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
        url('assets/fonts/din-next-regular/DINNextLTPro-Regular.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
